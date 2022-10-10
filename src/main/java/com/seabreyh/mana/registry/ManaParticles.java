@@ -26,6 +26,9 @@ public class ManaParticles {
         public static final RegistryObject<SimpleParticleType> MAGIC_PLOOM_PARTICLE_FIRE = PARTICLE_TYPES
                         .register("magic_ploom_particle_fire", () -> new SimpleParticleType(true));
 
+        public static final RegistryObject<SimpleParticleType> MAGIC_PLOOM_PARTICLE_EMERALD_TARGETING = PARTICLE_TYPES
+                        .register("magic_ploom_particle_emerald_targeting", () -> new SimpleParticleType(true));
+
         public static final RegistryObject<SimpleParticleType> TWINKLE_PARTICLE = PARTICLE_TYPES
                         .register("twinkle_particle", () -> new SimpleParticleType(true));
 

@@ -1,5 +1,6 @@
 package com.seabreyh.mana.entity;
 
+import com.seabreyh.mana.ManaMod;
 import com.seabreyh.mana.registry.ManaEntities;
 import com.seabreyh.mana.registry.ManaParticles;
 
@@ -231,8 +232,6 @@ public class EmeraldEnergyBall extends ThrowableProjectile {
                     firstTargetDied = true;
                 }
 
-                ++this.life;
-
             } else {
                 // ---------------------------
                 // MOVEMENT LOGIC - NO TARGET
@@ -276,7 +275,6 @@ public class EmeraldEnergyBall extends ThrowableProjectile {
                         this.getY(), this.getZ(),
                         this.random.nextGaussian() * 0.1D, this.random.nextGaussian() * 0.1D,
                         this.random.nextGaussian() * 0.1D);
-
             }
         }
     }
